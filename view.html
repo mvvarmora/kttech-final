@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTMTECHNO | 3D View</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="view-body">
+    <header class="header header-compact">
+        <div class="header-inner">
+            <a class="logo" href="index.html">KTMTECHNO</a>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a class="active" href="view.html">3D View</a>
+            </nav>
+            <p class="hint">Drag to rotate • Touch to spin</p>
+        </div>
+    </header>
+
+    <main class="view-main">
+        <div class="spin-scene" id="spinScene">
+            <div class="spin-track" id="spinTrack">
+                <div class="spin-frame active"><img src="product1.png" alt="KTMTECHNO view 1"></div>
+                <div class="spin-frame"><img src="product2.png" alt="KTMTECHNO view 2"></div>
+                <div class="spin-frame"><img src="product3.png" alt="KTMTECHNO view 3"></div>
+                <div class="spin-frame"><img src="product4.png" alt="KTMTECHNO view 4"></div>
+                <div class="spin-frame"><img src="hero.png" alt="KTMTECHNO view 5"></div>
+                <div class="spin-frame"><img src="product1.png" alt="KTMTECHNO view 6"></div>
+                <div class="spin-frame"><img src="product2.png" alt="KTMTECHNO view 7"></div>
+                <div class="spin-frame"><img src="product3.png" alt="KTMTECHNO view 8"></div>
+            </div>
+            <div class="spin-overlay">
+                <span class="spin-label">ROTATE THE PRODUCT</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
